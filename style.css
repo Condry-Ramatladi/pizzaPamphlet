@@ -6,13 +6,13 @@ body {
     padding: 0em;
 }
 
-.imenu a :hover{
-    color: cadetblue;
+.imenu a:hover{
+    background-color:blue;
 }
 
 .header{
     text-align: center;
-    background-color: lightskyblue;
+    /*background-color: lightskyblue;*/
     padding: 1em;
     margin: 1em;
 }
@@ -20,43 +20,41 @@ body {
 .main{
     padding: 1em;
     margin: 1em;
-    /*overflow: auto;*/
+    overflow: auto;
 }
 
-@media(min-width:670px){
+@media(min-width:960px){
     .main{
         display: flex;
-        background-color: blue;
-    }
-    .pm{
-        float: right;
-    }
-    .pl{
-        float: right;
-    }
-    .ps{
-        float: right;
+        /*background-color: blue;*/
     }
 }
+
 .pizza-1{
-    border-style: solid;
+    /*border-style: solid;*/
+    border-radius: 2em;
     background-color:darkgreen;
     padding: 1em;
-    margin: 1em;
+    margin: 2em;
+    width: 25%;
 }
 
 .pizza-2{
-    border-style: solid;
+    /*border-style: solid;*/
+    border-radius: 2em;
     background-color: chocolate;
     padding: 1em;
-    margin: 1em;
+    margin: 2em;
+    width: 25%;
 }
 
 .pizza-3{
-    border-style: solid;
+    /*border-style: solid;*/
+    border-radius: 2em;
     background-color:cornflowerblue;
     padding: 1em;
-    margin: 1em;
+    margin: 2em;
+    width: 25%;
 }
 
 
@@ -66,7 +64,7 @@ img{
     object-fit:contain;
 }
 .pm{
-    width: 50%;
+    width: 60%;
     padding: 1em;
     margin: 1em;
     background-color: aqua;
@@ -80,19 +78,24 @@ img{
 }
 
 .ps{
-    width: 30%;
+    width: 40%;
     padding: 1em;
     margin: 1em;
     background-color: aqua;
 }
 
 .footer{
-    width: 100%;
-    padding: 4em;
+    width:100%;
+    height: 10%;
+    padding: 1em;
     display: inline-flex;
     background-color:greenyellow;
 }
 
 .one{
     flex: 1;
+}
+
+.fit{
+    object-fit: contain;
 }
