@@ -14,15 +14,14 @@ body {
 }
 
 .main{
-    display: flex;
     padding: 1em;
     margin: 1em;
     overflow: auto;
 }
 
-@media(max-width:960 ){
+@media(min-width:960 ){
     .main{
-        display: inline-block;
+        display: flex;
     }
 }
 .pizza-1{
