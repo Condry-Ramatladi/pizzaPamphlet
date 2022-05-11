@@ -22,6 +22,7 @@ body {
 @media(min-width:660px){
     .main{
         display: flex;
+        background-color: blue;
     }
 }
 .pizza-1{
