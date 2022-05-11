@@ -6,6 +6,10 @@ body {
     padding: 0em;
 }
 
+.imenu a :hover{
+    color: cadetblue;
+}
+
 .header{
     text-align: center;
     background-color: lightskyblue;
@@ -23,6 +27,15 @@ body {
     .main{
         display: flex;
         background-color: blue;
+    }
+    .pm{
+        float: right;
+    }
+    .pl{
+        float: right;
+    }
+    .ps{
+        float: right;
     }
 }
 .pizza-1{
@@ -46,10 +59,6 @@ body {
     margin: 1em;
 }
 
-.pizpic{
-    float: none;
-
-}
 
 img{
     height: 100%;
@@ -64,14 +73,14 @@ img{
 }
 
 .pl{
-    width: 50%;
+    width: 70%;
     padding: 1em;
-    margin: 1em;
+    margin:1em;
     background-color: aqua;
 }
 
 .ps{
-    width: 50%;
+    width: 30%;
     padding: 1em;
     margin: 1em;
     background-color: aqua;
