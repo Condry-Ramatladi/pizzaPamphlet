@@ -74,7 +74,7 @@ img{
 .pm{
     width: 50%;
     padding: 1em;
-    margin: 1em;
+    margin-left: 1em;
     background-color: aqua;
 }
 
@@ -88,7 +88,7 @@ img{
 .ps{
     width: 30%;
     padding: 1em;
-    margin: 1em;
+    margin-left: 55%;
     background-color: aqua;
 }
 
