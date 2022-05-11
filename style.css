@@ -6,13 +6,14 @@ body {
     padding: 0em;
 }
 
-.imenu a:hover{
+a:hover{
     background-color:cadetblue;
 }
 
+/*
 .header a:hover{
     background-color:coral;
-}
+}*/
 
 .header{
     text-align: center;
