@@ -16,10 +16,10 @@ body {
 .main{
     padding: 1em;
     margin: 1em;
-    overflow: auto;
+    /*overflow: auto;*/
 }
 
-@media(min-width:660px){
+@media(min-width:670px){
     .main{
         display: flex;
         background-color: blue;
@@ -27,7 +27,7 @@ body {
 }
 .pizza-1{
     border-style: solid;
-    background-color:bisque;
+    background-color:darkgreen;
     padding: 1em;
     margin: 1em;
 }
@@ -50,25 +50,30 @@ body {
     float: none;
 
 }
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+}
 .pm{
     width: 50%;
-    padding: 3em;
-    margin: 4em;
+    padding: 1em;
+    margin: 1em;
     background-color: aqua;
 }
 
 .pl{
-    width: 80%;
-    padding: 3em;
-    margin: 4em;
+    width: 50%;
+    padding: 1em;
+    margin: 1em;
     background-color: aqua;
 }
 
 .ps{
-    float: right;
-    width: 30%;
-    padding: 3em;
-    margin: 4em;
+    width: 50%;
+    padding: 1em;
+    margin: 1em;
     background-color: aqua;
 }
 
